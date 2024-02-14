@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(34,34, 34);
+    color: black;
+    .container 
+        max-width: 600px;
+        margin: 0 auto; /* Centralizar horizontalmente */
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+    }

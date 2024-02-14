@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/style.css" rel="stylesheet"> 
+    <title>monitoramento hidropônico</title>
+    <style>
+     /* Estilos CSS para o conteúdo */
+     body{
+    background-color: rgb(34,34, 34);
+    color: black;
+    .container 
+        max-width: 600px;
+        margin: 0 auto; /* Centralizar horizontalmente */
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+    }  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Monitoramento Hidropônico</h1>
+        <div id="sensor-data">
+            <div class="sensor">
+                <p>pH: <span id="ph-value">--</span></p>
+                <p>Condutividade: <span id="condutividade-value">--</span></p>
+                <p>Temperatura: <span id="temperatura-value">--</span></p>
+            </div>
+        </div>
+        <button id="download-data">Baixar Dados</button>
+    </div>
+    <script>
+        // Função para atualizar os valores dos sensores
+        function atualizarValoresSensores(enderecoESP32) {
+            // Adicione sua lógica JavaScript aqui
+        }
+
+        // Chamada da função para atualizar os valores dos sensores com o endereço do ESP32
+        const enderecoESP32 = 'ws://endereco-do-seu-esp32:porta';
+        atualizarValoresSensores(enderecoESP32);
+    </script>
+
+    <!-- Os comandos Git abaixo devem ser executados no terminal/prompt de comando -->
+
+    <!-- 1. Navegue até a pasta onde estão os arquivos do seu site -->
+    <!-- 2. Execute: git init -->
+    <!-- 3. Execute: git add . -->
+    <!-- 4. Execute: git commit -m "Primeiro commit" -->
+    <!-- 5. Substitua "URL_DO_REPOSITORIO" pelo URL HTTPS do seu repositório GitHub -->
+    <!-- 6. Execute: git remote add origin URL_DO_REPOSITORIO -->
+    <!-- 7. Execute: git push -u origin master -->
+    
+</body>
+</html>
